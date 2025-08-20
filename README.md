@@ -6,6 +6,3 @@ Une brève description du projet.
 
 ```bash
 pip install nom-du-paquet
-
-
-https://segandiaye.github.io/pre-commit-challenge/
