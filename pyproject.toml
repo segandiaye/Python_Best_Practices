@@ -1,0 +1,73 @@
+[project]
+name = "segandiaye-toolkit"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Sega NDIAYE",email = "ndiaye.sega.pro@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "click (>=8.2.1,<9.0.0)",
+    "mkdocs (>=1.6.1,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "segandiaye_toolkit", from = "src"}]
+
+[tool.poetry.scripts]
+hello = "segandiaye_toolkit.cli:hello"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.3.0"
+pylint = "^3.3.8"
+ruff = "^0.12.9"
+black = "^25.1.0"
+pre-commit = "^4.3.0"
+bandit = "^1.8.6"
+isort = "^6.0.1"
+
+[tool.ruff]
+target-version = "py310" # Python version (examples: 39 for 3.9, 310 for 3.10, etc.)
+line-length = 120 # Maximum line-length for formatting
+exclude = [ # Scripts or folders to exclude from linting/formatting
+    "bin", # ignore bin folder
+    "tests", # ignore all tests files in folder
+    "guidelines", # ignore guidelines
+    "notebooks", # ignore notebooks
+    "validation_tests", # ignore validation_tests
+]
+
+[tool.ruff.lint]
+ignore = [ # Rules to ignore. In this example these are all docstring (D) related rules.
+    # "D100", # Missing docstring
+    # "D205", # 1 blank line required between summary qnd description
+    # "D415", # First line should end with a period, question mark or exclamation point.
+    "S113", # Usage of requests without timeout.
+    "N803", # Argument name should be lowercase (Will be an issue for X_train, X_test naming convention).
+    "N806", # Variable in function should be lowercase (Will be an issue for the same reason as N803).
+]
+select = [ # Sets of rules to check for
+    # "B",    # bugbear
+    # "C4",   # comprehensions
+    # "C90",  # mccabe
+    # "D",    # docstrings
+    "W",    # pycodestyle
+    "I",    # isort
+    "S",    # bandit
+    "E",    # pycodestyle
+    "N",    # pep8-naming
+    "F",    # flake8
+    "T20",  # flake8-print plugin to make sure there are no print statements in the code.
+    "ANN",  # flake8-annotations plugin to make sure functions and methods are properly type annotated.
+    "ARG",  # flake8-unused-arguments plugin to check for unused arguments that should be removed.
+    # "RUF",  # ruff
+    # "PD",   # pandas
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google" # The type of docstring style to follow. Will be elaborated on in the module about docstrings.
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
