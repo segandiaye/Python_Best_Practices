@@ -12,3 +12,11 @@ Une brève description du projet.
 ```bash
 TODO
 ```
+
+# Pytest commands utils
+
+```bash
+pip install pytest pytest-cov
+pytest --cov --cov-branch --cov-report=xml
+PYTHONPATH=src pytest --cov=segandiaye_toolkit tests/
+```
