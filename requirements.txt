@@ -1,4 +1,5 @@
 # Requires Python >=3.10.12
+# Dev deps
 flake8>=7.3.0
 pylint>=3.3.8
 ruff>=0.12.9
@@ -10,5 +11,6 @@ mkdocs>=1.6.1,<2.0.0
 mkdocs-material>=9.6.17
 pytest>=8.4.1
 pytest-cov>=6.2.1
-click>=8.2.1,<9.0.0
 loguru>=0.7.3,<0.8.0
+# deps
+click>=8.2.1,<9.0.0
