@@ -18,5 +18,5 @@ TODO
 ```bash
 pip install pytest pytest-cov
 pytest --cov --cov-branch --cov-report=xml
-PYTHONPATH=src pytest --cov=segandiaye_toolkit tests/
+PYTHONPATH=src pytest --cov=src tests
 ```
