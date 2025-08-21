@@ -18,6 +18,7 @@ TODO
 
 ```bash
 pip install pytest pytest-cov
-pytest --cov --cov-branch --cov-report=xml
+pytest --cov=src --cov-branch --cov-report=xml
 PYTHONPATH=src pytest --cov=src tests
+PYTHONPATH=src pytest --cov=src --cov-report=term-missing tests # Locally
 ```
