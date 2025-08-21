@@ -29,6 +29,9 @@ jobs:
 
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v3
+      with:
+        files: coverage.xml
+        verbose: true
 
     # If private ripo
     #- name: Upload coverage
