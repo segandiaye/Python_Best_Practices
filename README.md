@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/pre-commit-challenge.svg)](https://www.npmjs.com/package/pre-commit-challenge)
 [![Build Status](https://travis-ci.com/segandiaye/pre-commit-challenge.svg?branch=feat/test-ci_cd)](https://travis-ci.com/segandiaye/pre-commit-challenge)
-[![codecov](https://codecov.io/gh/username/pre-commit-challenge/branch/feat%2Ftest-ci_cd/graph/badge.svg)](https://codecov.io/gh/username/pre-commit-challenge)
+[![codecov](https://codecov.io/gh/segandiaye/pre-commit-challenge/branch/feat%2Ftest-ci_cd/graph/badge.svg)](https://codecov.io/gh/segandiaye/pre-commit-challenge)
 
 
 
