@@ -1,0 +1,14 @@
+# Requires Python >=3.10.12
+flake8>=7.3.0
+pylint>=3.3.8
+ruff>=0.12.9
+black>=25.1.0
+pre-commit==4.3.0
+bandit>=1.8.6
+isort>=6.0.1
+mkdocs>=1.6.1,<2.0.0
+mkdocs-material>=9.6.17
+pytest>=8.4.1
+pytest-cov>=6.2.1
+click>=8.2.1,<9.0.0
+loguru>=0.7.3,<0.8.0
