@@ -30,3 +30,10 @@ jobs:
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v3
 
+    # If private ripo
+    #- name: Upload coverage
+    #  uses: codecov/codecov-action@v3
+    #  with:
+    #    token: ${{ secrets.CODECOV_TOKEN }}
+
+
