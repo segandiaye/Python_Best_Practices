@@ -1,8 +1,8 @@
 # 📘 Clean code : best practice avec Artefact
 
-[![NPM version](https://img.shields.io/npm/v/pre-commit-challenge.svg)](https://www.npmjs.com/package/pre-commit-challenge)
-[![Build Status](https://travis-ci.com/segandiaye/pre-commit-challenge.svg?branch=feat/test-ci_cd)](https://travis-ci.com/segandiaye/pre-commit-challenge)
-[![codecov](https://codecov.io/gh/segandiaye/pre-commit-challenge/branch/feat%2Ftest-ci_cd/graph/badge.svg)](https://codecov.io/gh/segandiaye/pre-commit-challenge)
+[![NPM version](https://img.shields.io/npm/v/Python_Best_Practices.svg)](https://www.npmjs.com/package/Python_Best_Practices)
+[![Build Status](https://travis-ci.com/segandiaye/Python_Best_Practices.svg?branch=feat/test-ci_cd)](https://travis-ci.com/segandiaye/Python_Best_Practices)
+[![codecov](https://codecov.io/gh/segandiaye/Python_Best_Practices/branch/feat%2Ftest-ci_cd/graph/badge.svg)](https://codecov.io/gh/segandiaye/Python_Best_Practices)
 
 
 

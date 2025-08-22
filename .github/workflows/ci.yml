@@ -32,7 +32,7 @@ jobs:
       with:
         files: coverage.xml
         token: ${{ secrets.CODECOV_TOKEN }}
-        slug: segandiaye/pre-commit-challenge
+        slug: segandiaye/Python_Best_Practices
         verbose: true
         fail_ci_if_error: true # Ensure CI fails if coverage isn’t uploaded:
 
