@@ -1,4 +1,4 @@
--# ✅ **Déployer la documentation sur GitHub Pages**
+# ✅ **Déployer la documentation sur GitHub Pages**
 
 ### Étapes :
 
