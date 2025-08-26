@@ -1,6 +1,6 @@
 # 📘 Clean code : best practice avec Artefact
 
-[![codecov](https://codecov.io/gh/segandiaye/Python_Best_Practices/branch/feat%2Ftest-ci_cd/graph/badge.svg)](https://codecov.io/gh/segandiaye/Python_Best_Practices)
+[![codecov](https://codecov.io/gh/segandiaye/Python_Best_Practices/branch/main/graph/badge.svg)](https://codecov.io/gh/segandiaye/Python_Best_Practices)
 
 
 
