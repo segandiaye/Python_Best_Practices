@@ -14,3 +14,4 @@ pytest-cov>=6.2.1 # for tests coverage
 loguru>=0.7.3,<0.8.0 # For logger your code to debug your code
 # deps
 click>=8.2.1,<9.0.0 # Click stands for Command Line Interface Creation Kit.
+poetpoetry>=2.1.4ry
