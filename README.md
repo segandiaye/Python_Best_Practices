@@ -4,7 +4,7 @@
 
 
 
-Une brève description du projet.
+A brief description of good practices.
 
 # 🚀 Installation
 
@@ -16,15 +16,15 @@ pip install -r requirements.txt # Installer les dépendances
 
 With pyenv :
 
-    ```bash
-    pyenv virtualenv my_env # To create or 
-    pyenv activate my_env # to activate my_env
-    ```
+```bash
+pyenv virtualenv my_env # To create or 
+pyenv activate my_env # to activate my_env
+```
 ***With python :***
 
-    ```bash
-    python -m venv my_env
-    ```
+```bash
+python -m venv my_env
+```
 
 ***With poetry which is the modern alternative to `pip + virtualenv + setuptools`:***
 
@@ -32,7 +32,7 @@ With pyenv :
         - If your project is super minimal, and you prefer pip + venv
         - If you're using a platform that doesn't yet fully support pyproject.toml workflows (rare in 2025)
 
-`pyproject.toml` replaces `setup.py`, `requirements.txt`, and others:
+`pyproject.toml` replaces `setup.py`, `requirements.txt`, and others : a simple example :
 
 ```toml
 [tool.poetry]
