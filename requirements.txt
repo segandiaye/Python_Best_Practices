@@ -1,16 +1,16 @@
 # Requires Python >=3.10.12
 # Dev deps
-flake8>=7.3.0
-pylint>=3.3.8
-ruff>=0.12.9
-black>=25.1.0
-pre-commit==4.3.0
-bandit>=1.8.6
-isort>=6.0.1
-mkdocs>=1.6.1,<2.0.0
+flake8>=7.3.0 # Linter : Finds syntax errors, PEP8 issues, unused imports, etc.
+pylint>=3.3.8 # Linter + Static Analyzer : More detailed analysis, with code style, errors, and optional scores.
+ruff>=0.12.9 # Linter (fast) : Very fast linter that can replace flake8, pylint, and even isort/mypy checks.
+black>=25.1.0 # Code Formatter : Auto-formats code to follow consistent style (PEP8+ opinionated).
+pre-commit==4.3.0 # Module in Python is a framework for managing and running Git hooks — particularly the pre-commit hook, which runs before each commit to check your code automatically.
+bandit>=1.8.6 # Security Scanner : Scans code for common Python security issues (e.g. hardcoded passwords, unsafe functions).
+isort>=6.0.1 # Import Sorter : Automatically sorts and groups imports.
+mkdocs>=1.6.1,<2.0.0 # For make documentation and deploy
 mkdocs-material>=9.6.17
-pytest>=8.4.1
-pytest-cov>=6.2.1
-loguru>=0.7.3,<0.8.0
+pytest>=8.4.1 # For tests
+pytest-cov>=6.2.1 # for tests coverage
+loguru>=0.7.3,<0.8.0 # For logger your code to debug your code
 # deps
-click>=8.2.1,<9.0.0
+click>=8.2.1,<9.0.0 # Click stands for Command Line Interface Creation Kit.

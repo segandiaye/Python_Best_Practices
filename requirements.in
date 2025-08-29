@@ -1,0 +1,15 @@
+# Requires Python >=3.10.12
+# Dev deps
+flake8
+pylint
+ruff
+black
+pre-commit
+bandit
+isort
+mkdocs
+mkdocs-material
+pytest
+pytest-cov
+loguru
+click
