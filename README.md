@@ -1,4 +1,4 @@
-# 📘 Clean code : best practice avec Artefact
+# 📘 Clean code : best practice
 
 [![codecov](https://codecov.io/gh/segandiaye/Python_Best_Practices/branch/main/graph/badge.svg)](https://codecov.io/gh/segandiaye/Python_Best_Practices)
 
