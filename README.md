@@ -62,6 +62,7 @@ black = "^24.3.0"
 | `poetry build`        | Build your package                          |
 | `poetry publish`      | Publish to PyPI                             |
 
+***With Conda :*** TODO
 
 # Pre-commit
 
