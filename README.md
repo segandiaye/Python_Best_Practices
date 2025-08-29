@@ -14,7 +14,7 @@ pip install -r requirements.txt # Installer les dépendances
 
 # Manage environment
 
-With pyenv :
+***With pyenv :***
 
 ```bash
 pyenv virtualenv my_env # To create or 
